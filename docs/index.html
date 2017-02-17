@@ -150,98 +150,93 @@
       <hr>
 
       <h4 id="NUGET">2.2 Le NuGet MicroToolsKit</h4>
-        <p>La dernière version <strong>compilée</strong> de la classe <strong>MLX90614</strong> se situe dans la bibliothèque
-          <strong>MicroToolsKit</strong> disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>.</p>
-        <p align="center"><img src="images/NuGet-large.png " /></p>
-        <p><strong>Organisation des classes</strong> contenues dans MicroToolsKit
-          <a href="https://csharpembarquenetduino.wikispaces.com/6.+La+biblioth%C3%A8que+MicroToolsKit " target="_blank ">[lien]</a>
-        </p>
-        <p><em>Installer cette bibliothèque dans le projet simplifie l'utilisation de cette classe.</em></p>
-        <hr>
+      <p>La dernière version <strong>compilée</strong> de la classe <strong>MLX90614</strong> se situe dans la bibliothèque
+        <strong>MicroToolsKit</strong> disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>.</p>
+      <p align="center"><img src="images/NuGet-large.png " /></p>
+      <p><strong>Organisation des classes</strong> contenues dans MicroToolsKit
+        <a href="https://csharpembarquenetduino.wikispaces.com/6.+La+biblioth%C3%A8que+MicroToolsKit " target="_blank ">[lien]</a>
+      </p>
+      <p><em>Installer cette bibliothèque dans le projet simplifie l'utilisation de cette classe.</em></p>
+      <hr>
 
-        <h4 id="WIKI ">2.3 Les Wikis</h4>
-        <ul>
-          <li><strong>Fascicules</strong> d'exemples de code pour les cartes <strong>Netduino</strong>.
-            <a href="https://csharpembarquenetduino.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp " target="_blank ">[lien]</a>
-          </li>
-          <li><strong>Fascicule</strong> d'exemples de code pour les cartes <strong>FEZ</strong>.
-            <a href="https://csharpembarquefez.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp " target="_blank ">[lien]</a>
-          </li>
-        </ul>
-        <hr>
+      <h4 id="WIKI ">2.3 Les Wikis</h4>
+      <ul>
+        <li><strong>Fascicules</strong> d'exemples de code pour les cartes <strong>Netduino</strong>.
+          <a href="https://csharpembarquenetduino.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp " target="_blank ">[lien]</a>
+        </li>
+        <li><strong>Fascicule</strong> d'exemples de code pour les cartes <strong>FEZ</strong>.
+          <a href="https://csharpembarquefez.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp " target="_blank ">[lien]</a>
+        </li>
+      </ul>
+      <hr>
 
-        <h4 id="DESC ">2.4 Description et utilisation de la classe MLX90614</h4>
-        <ul>
-          <li><strong>Rôle: </strong>Contrôler un capteur de température MLX90614 via un bus I²C.</li>
-          <li><strong>Assembly: </strong> <em>MicroToolsKit</em> (disponible sur
-            <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/ " target="_blank
+      <h4 id="DESC ">2.4 Description et utilisation de la classe MLX90614</h4>
+      <ul>
+        <li><strong>Rôle: </strong>Contrôler un capteur de température MLX90614 via un bus I²C.</li>
+        <li><strong>Assembly: </strong> <em>MicroToolsKit</em> (disponible sur
+          <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/ " target="_blank
             ">nuget.org</a>)</li>
-          <li><strong>Espace de noms: </strong><em>Microtoolskit.Hardware.Sensors</em></li>
-        </ul>
-        <hr>
+        <li><strong>Espace de noms: </strong><em>Microtoolskit.Hardware.Sensors</em></li>
+      </ul>
+      <hr>
 
-        <p><strong>Création d'un projet avec l'IDE Visual Studio</strong></p>
-        <hr>
-        <ol>
-          <li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> l'assembly <strong>MicroToolsKit</strong>            (disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/ " target="_blank ">nuget.org</a>)
-            dans le répertoire <em>Références</em> du projet.(clic droit sur <em>Références</em> dans le gestionnaire de
-            solutions de Visual Studio puis <em>Gérer les packages NuGet...</em>)</li>
-          <li><strong>Ajouter</strong> l'espace de noms <strong>Microtoolskit.Hardware.Sensors</strong> dans l'en-tête du fichier
-            source.
-          </li>
-          <li><strong>Créer</strong> un objet en utilisant le constructeur <em>MLX90614</em> et les paramètres appropriés.</li>
-          <li><strong>Utiliser</strong> les méthodes <strong>Read_TA_AsCelcius</strong> pour mesurer la température de l'air
-            et <strong>Read_Tobj_AsCelcius pour mesurer la température d'un objet</strong> et obtenir le résultat en °C.</li>
-        </ol>
-        <hr>
+      <p><strong>Création d'un projet avec l'IDE Visual Studio</strong></p>
+      <hr>
+      <ol>
+        <li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> l'assembly <strong>MicroToolsKit</strong>          (disponible sur <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/ " target="_blank ">nuget.org</a>)
+          dans le répertoire <em>Références</em> du projet.(clic droit sur <em>Références</em> dans le gestionnaire de solutions
+          de Visual Studio puis <em>Gérer les packages NuGet...</em>)</li>
+        <li><strong>Ajouter</strong> l'espace de noms <strong>Microtoolskit.Hardware.Sensors</strong> dans l'en-tête du fichier
+          source.
+        </li>
+        <li><strong>Créer</strong> un objet en utilisant le constructeur <em>MLX90614</em> et les paramètres appropriés.</li>
+        <li><strong>Utiliser</strong> les méthodes <strong>Read_TA_AsCelcius</strong> pour mesurer la température de l'air et
+          <strong>Read_Tobj_AsCelcius pour mesurer la température d'un objet</strong> et obtenir le résultat en °C.</li>
+      </ol>
+      <hr>
 
-        <p><strong>Constructeur</strong></p>
-        <table>
-          <tr>
-            <td></td>
-            <td><strong>Syntaxe</strong></td>
-            <td><strong>Description</strong></td>
-          </tr>
-          <tr>
-            <td><img src="images/Method_16x.png"></td>
-            <td><strong>MLX90614</strong>()</td>
-            <td>Instancie un objet "MLX90614".</td>
-          </tr>
-        </table>
+      <p><strong>Constructeur</strong></p>
+      <table>
+        <tr>
+          <td></td>
+          <td><strong>Syntaxe</strong></td>
+          <td><strong>Description</strong></td>
+        </tr>
+        <tr>
+          <td><img src="images/Method_16x.png"></td>
+          <td><strong>MLX90614</strong>()</td>
+          <td>Instancie un objet "MLX90614".</td>
+        </tr>
+      </table>
 
-        <p><strong>Méthodes publiques</strong></p>
-        <table>
-          <tr>
-            <td></td>
-            <td><strong>Syntaxe</strong></td>
-            <td><strong>Description</strong></td>
-          </tr>
-          <tr>
-            <td><img src="images/Method_16x.png"></td>
-            <td><strong>float asCelcius</strong>()</td>
-            <td>Renvoie la température en degrés Celcius.</td>
-          </tr>
-          <tr>
-            <td><img src="images/Method_16x.png"></td>
-            <td><strong>float asFarenheight</strong>()</td>
-            <td>Renvoie la température en degrés Celcius.</td>
-          </tr>
-          <tr>
-            <td><img src="images/Method_16x.png"></td>
-            <td><strong>float asKelvin</strong>()</td>
-            <td>Renvoie la température en Kelvin.</td>
-          </tr>
-          <tr>
-            <td><img src="images/Method_16x.png"></td>
-            <td><strong>float asRankine</strong>()</td>
-            <td>Renvoie la température en Rankine.</td>
-          </tr>
-          <tr>
-            <td><img src="images/Method_16x.png"></td>
-            <td><strong>float Read</strong>()</td>
-            <td>Renvoie la température en donnée brute.</td>
-          </tr>
-        </table>
+      <p><strong>Méthodes publiques</strong></p>
+      <table>
+        <tr>
+          <td></td>
+          <td><strong>Syntaxe</strong></td>
+          <td><strong>Description</strong></td>
+        </tr>
+        <tr>
+          <td><img src="images/Method_16x.png"></td>
+          <td><strong>double Read_TA_AsCelcius()</strong></td>
+          <td>Renvoi la température de l'air en °C.</td>
+        </tr>
+        <tr>
+          <td><img src="images/Method_16x.png"></td>
+          <td><strong>double Read_TA_AsFahrenheit()</strong></td>
+          <td>Renvoi la température de l'air en °F.</td>
+        </tr>
+        <tr>
+          <td><img src="images/Method_16x.png"></td>
+          <td><strong>double Read_Tobj_AsCelcius()</strong></td>
+          <td>Renvoi la température de l'objet en °C.</td>
+        </tr>
+        <tr>
+          <td><img src="images/Method_16x.png"></td>
+          <td><strong>double Read_Tobj_AsFahrenheit()</strong></td>
+          <td>Renvoi la température de l'objet en °F.</td>
+        </tr>
+      </table>
     </section>
   </div>
 

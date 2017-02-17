@@ -58,6 +58,13 @@
       <hr>
       <ul>
         <li><strong>Présentation</strong></li>
+        <p>Ce module capteur de température IR sans contact est basé sur un MLX90614 et comporte un convertisseur analogique-numérique
+          et un DSP (Digital Signal Processor) pour des résultats fiables et précis. La valeur mesurée est la température
+          moyenne de tous les objets dans le champ de vision du capteur. MLX90614 offre une précision standard de ± 0,5°C
+          autour de la température ambiante.
+        </p>
+         <li><strong>Schéma interne du composant</strong></li>
+        <p align="center"><img src="images/MLX614 BD.png"></p>
       </ul>
 
       <h4 id="DUINO">1.2 Les cartes Netduino</h4>
@@ -202,9 +209,9 @@
         </tr>
         <tr>
           <td><img src="images/Method_16x.png"></td>
-         <td><strong>MLX90614</strong>(<strong>ushort</strong> <em>SLA</em>, <strong>short</strong> <em>Frequency</em> )</td>
-          <td>Instancie un objet "MLX90614". <br><strong>SLA : </strong>Addresse sur
-            le bus I²C entre 0x01 et 0x7F. <br> SLA= 0x5A par défaut.
+          <td><strong>MLX90614</strong>(<strong>ushort</strong> <em>SLA</em>, <strong>short</strong> <em>Frequency</em> )</td>
+          <td>Instancie un objet "MLX90614". <br><strong>SLA : </strong>Addresse sur le bus I²C entre 0x01 et 0x7F. <br> SLA=
+            0x5A par défaut.
             <br><strong>Frequency: </strong>Féquence du signal SCL entre 10kHz et 100kHz <br> Frequency = 50kHz. (par défaut)</td>
         </tr>
       </table>

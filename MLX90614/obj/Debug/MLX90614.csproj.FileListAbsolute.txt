@@ -16,3 +16,21 @@ C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\testMLX90614\MLX90
 C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\testMLX90614\MLX90614\obj\Debug\le\MLX90614.pdbx
 C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\testMLX90614\MLX90614\obj\Debug\MLX90614.dll
 C:\Users\phili\OneDrive\Documents\Visual Studio 2015\Projects\testMLX90614\MLX90614\obj\Debug\MLX90614.pdb
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\le\MLX90614.dll
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\be\MLX90614.dll
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\le\MLX90614.pdb
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\be\MLX90614.pdb
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\MLX90614.dll
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\MLX90614.pdb
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\le\MLX90614.pe
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\le\MLX90614.pdbx
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\be\MLX90614.pe
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\bin\Debug\be\MLX90614.pdbx
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\obj\Debug\MLX90614.csprojResolveAssemblyReference.cache
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\obj\Debug\be\MLX90614.pe
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\obj\Debug\be\MLX90614.pdbx
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\obj\Debug\le\MLX90614.pe
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\obj\Debug\le\MLX90614.pdbx
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\obj\Debug\MLX90614.dll
+C:\Users\phili\OneDrive\Documents\GitHub\MLX90614\MLX90614\obj\Debug\MLX90614.pdb

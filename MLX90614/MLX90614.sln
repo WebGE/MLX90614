@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLX90614", "MLX90614\MLX90614.csproj", "{1A20EC1B-D7B1-467D-977E-0D13BDF6C017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testNetduino", "testNetduino\testNetduino.csproj", "{19BEAEDE-26B6-4E49-9821-8643336ACDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testFezPanda", "testFezPanda\testFezPanda.csproj", "{F137567D-A8E7-4A77-A427-FEBEA8C66DE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A20EC1B-D7B1-467D-977E-0D13BDF6C017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A20EC1B-D7B1-467D-977E-0D13BDF6C017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A20EC1B-D7B1-467D-977E-0D13BDF6C017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A20EC1B-D7B1-467D-977E-0D13BDF6C017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BEAEDE-26B6-4E49-9821-8643336ACDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BEAEDE-26B6-4E49-9821-8643336ACDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BEAEDE-26B6-4E49-9821-8643336ACDF0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{19BEAEDE-26B6-4E49-9821-8643336ACDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BEAEDE-26B6-4E49-9821-8643336ACDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19BEAEDE-26B6-4E49-9821-8643336ACDF0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F137567D-A8E7-4A77-A427-FEBEA8C66DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F137567D-A8E7-4A77-A427-FEBEA8C66DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F137567D-A8E7-4A77-A427-FEBEA8C66DE6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F137567D-A8E7-4A77-A427-FEBEA8C66DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F137567D-A8E7-4A77-A427-FEBEA8C66DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F137567D-A8E7-4A77-A427-FEBEA8C66DE6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

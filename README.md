@@ -2,7 +2,7 @@
 
 <strong>Description</strong>
 -------------------------------------
-Source code of the MLX90614 class.
+Source code.
 
 A <strong>.NETMF 4.3 class</strong> write for a MLX90614 circuit : <strong>IR Temperature sensor</strong>. 
 

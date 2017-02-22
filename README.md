@@ -1,21 +1,53 @@
 # MLX90614
 
-Source code of the MLX90614 <strong>NETMF class</strong> contained in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
+<strong>Description</strong>
+-------------------------------------
+Source code of the PCF8574 class.
 
-This class is for a MLX90614 circuit : <strong>IR Temperature sensor</strong>.
+A <strong>.NETMF 4.3 class</strong> write for a MLX90614 circuit : <strong>IR Temperature sensor</strong>. 
 
+This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 
-<strong>Tags</strong>: I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
+ <img src="img/nuget.JPG" align="center" />
 
-<strong>Target</strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
+<strong>Hardware</strong>
+---------------------
+<strong> Targets </strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 
-<strong>IDE</strong> : Visual Studio Community.
+<strong>Software</strong>
+---------------------
+<ul>
+<li><strong>Language</strong> : C#</li>
+<li><strong>Framework used</strong> : .NETMF 4.3</li>
+<li><strong>IDE</strong> : Visual Studio Community 2015</li>
+<li><strong>xml</strong> : documentation inside class </li> 
+<li><strong>Exception</strong> : if transaction failed</li>
+</ul>
 
-<strong>Language</strong> : C#.
+<strong> Visual Studio solution</strong>
+-------------------------------------
+<ul>
+<li><strong>MLX90614</strong>
+<ul>
+<li><strong>MLX90614</strong> : .NetMF class</li>
+<img src="img/DClassMLX90614.png" />
+<li><strong>Netduino</strong> : class test program for Netduino board</li>
+<li><strong>FezPanda</strong> : class test program for Fez Panda board</li>
+</ul>
+</li>
+</ul>
 
-<strong>Framework</strong> : .NETMF 4.3
+<strong>Keywords</strong>
+----------------------------
+I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
+<strong>TODO</strong>
+-------------------
+write EEPROM
+
+<strong>To get started<strong>
+--------------------
+See <a href="http://webge.github.io/mlx90614/" target="_blank">MLX90614 GitHub Page</a>.
 <hr>
-See <a href="http://webge.github.io/MLX90614/" target="_blank">MLX90614 GitHub Pages</a> too get started.
 
-Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
+<strong>Maintened by<strong> <a href="mailto:philippemariano@gmail.com">WebGE</a>

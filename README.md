@@ -47,7 +47,7 @@ write EEPROM
 
 <strong>To get started<strong>
 --------------------
-See <a href="http://webge.github.io/mlx90614/" target="_blank">MLX90614 GitHub Page</a>.
+See <a href="https://webge.github.io/MLX90614/" target="_blank">MLX90614 GitHub Page</a>.
 <hr>
 
 <strong>Maintened by<strong> <a href="mailto:philippemariano@gmail.com">WebGE</a>

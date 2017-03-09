@@ -43,7 +43,7 @@ I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
 <strong>TODO</strong>
 -------------------
-write EEPROM
+write in EEPROM
 
 <strong>To get started<strong>
 --------------------

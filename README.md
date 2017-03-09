@@ -39,7 +39,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 
 <strong>Assembly</strong>
 --------------------------
-<img src="img/MLX90614FezPanda.JPG" />
+<img src="img/MLX90614FezPanda.jpg" />
 
 <strong>Video</strong>
 -------------------

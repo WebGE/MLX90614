@@ -83,15 +83,15 @@
 
       <h4>Module MLX90614</h4>
       <hr>
-      <table width="100%" align="center"maj>
-        <tr align="center"maj>
+      <table width="100%" align="center" maj>
+        <tr align="center" maj>
           <td><strong>DFROBBOT</strong></td>
         </tr>
         <tr align="center">
           <td><img src="images/MLX90614.png"></td>
         </tr>
         <tr align="center">
-          <td><a href="http://www.gotronic.fr/art-capteur-de-temperature-ir-sen0206-25561.htm" target="_blank">Documentation</a> -
+          <td><a href="http://www.gotronic.fr/art-capteur-de-temperature-ir-sen0206-25561.htm" target="_blank">Documentation</a>            -
             <a href="datasheets/IR Thermometer Sensor-MLX90614 schematic">Schéma</a>
           </td>
         </tr>
@@ -196,7 +196,7 @@
       <hr>
 
       <h4 id="WIKI">2.3 Les Wikis</h4>
-      Des wikis sont dédiés aux cartes Netduino et GHI Fez. Ils proposent au téléchargement : 
+      Des wikis sont dédiés aux cartes Netduino et GHI Fez. Ils proposent au téléchargement :
       <ul>
         <li><strong>Deux fascicules</strong> d'exemples de code pour les cartes <strong>Netduino</strong>.
           <a href="https://csharpembarquenetduino.wikispaces.com/5.+Les+fascicules+d%27exemples+cod%C3%A9s+en+CSharp " target="_blank ">[lien]</a>
@@ -220,22 +220,23 @@
       <p><strong>Création d'un projet avec l'IDE Visual Studio 2015</strong></p>
       <hr>
       <ol>
-        <li><strong>Créer </strong>un nouveau projet en suivant la démarche décrite dans le chapitre <em>"Premier programme en C# étape par étape"</em> 
-				du Wiki dédié à une carte <strong>Netduino</strong> ou du Wiki dédié à une carte <strong>GHI Fez. </strong>Ces Wikis sont accessibles
-					<a href="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library" target="_blank">ici</a>.</li>
-        <li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> la bibliothèque <strong>MicroToolsKit</strong> 
-        (<a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/ " target="_blank ">nuget.org</a>) dans le projet.
-          (Dans l'explorateur de solution, clic droit sur les <em>Références</em> du projet puis choisir <em>Gérer les packages NuGet...</em>.<strong> Installer</strong> le paquet.)</li>
+        <li><strong>Créer </strong>un nouveau projet en suivant la démarche décrite dans le chapitre <em>"Premier programme en C# étape par étape"</em>          du Wiki dédié à une carte <strong>Netduino</strong> ou du Wiki dédié à une carte <strong>GHI Fez. </strong>Ces
+          Wikis sont accessibles
+          <a href="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library" target="_blank">ici</a>.</li>
+        <li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> la bibliothèque <strong>MicroToolsKit</strong>          (
+          <a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/ " target="_blank ">nuget.org</a>) dans le projet.
+          (Dans l'explorateur de solution, clic droit sur les <em>Références</em> du projet puis choisir <em>Gérer les packages NuGet...</em>.<strong> Installer</strong>          le paquet.)</li>
         <li><strong>Ajouter</strong> l'espace de noms <strong>Microtoolskit.Hardware.Sensors</strong> dans l'en-tête du fichier
           source.
         </li>
         <li><strong>Créer</strong> un objet en utilisant le constructeur <em>MLX90614</em>.</li>
-        <li><strong>Utiliser</strong> la méthode <strong>Read_TA_AsCelcius</strong> pour mesurer la température de l'air et la méthode 
+        <li><strong>Utiliser</strong> la méthode <strong>Read_TA_AsCelcius</strong> pour mesurer la température de l'air et la
+          méthode
           <strong>Read_Tobj_AsCelcius pour mesurer la température d'un objet</strong> et obtenir le résultat en °C.</li>
       </ol>
       <hr>
-			<strong>Exemple</strong><br>
-			<pre>
+      <strong>Exemple</strong><br>
+      <pre>
 using System.Threading;
 using Microsoft.SPOT;
 using Microtoolskit.Hardware.Sensors;
@@ -274,9 +275,9 @@ namespace test
             0x5A par défaut.
             <br><strong>Frequency: </strong>Féquence du signal SCL entre 10kHz et 100kHz <br> Frequency = 50kHz. (par défaut)
             <br> <br>
-						<strong>Exemple</strong><br>
-						<em> MLX90614 tempIR = new MLX90614();</em>
-            </td>
+            <strong>Exemple</strong><br>
+            <em> MLX90614 tempIR = new MLX90614();</em>
+          </td>
         </tr>
       </table>
 
@@ -290,22 +291,38 @@ namespace test
         <tr>
           <td><img src="images/Method_16x.png"></td>
           <td><strong>double Read_TA_AsCelcius()</strong></td>
-          <td>Renvoi la température de l'air en °C. <br> Une exception System.IO.IOException est générée avec le message "I2CBus error + SLA" en cas d'échec de la communication.</td>
+          <td>Renvoi la température de l'air en °C. <br> Une exception System.IO.IOException est générée avec le message "I2CBus
+            error + SLA" en cas d'échec de la communication.</td>
+          <br> <br>
+          <strong>Exemple</strong><br>
+          <em>double temperature_A = tempIR.Read_TA_AsCelcius();</em>
         </tr>
         <tr>
           <td><img src="images/Method_16x.png"></td>
           <td><strong>double Read_TA_AsFahrenheit()</strong></td>
-          <td>Renvoi la température de l'air en °F. <br> Une exception System.IO.IOException est générée avec le message "I2CBus error + SLA" en cas d'échec de la communication.</td>
+          <td>Renvoi la température de l'air en °F. <br> Une exception System.IO.IOException est générée avec le message "I2CBus
+            error + SLA" en cas d'échec de la communication.</td>
+            <br> <br>
+          <strong>Exemple</strong><br>
+          <em>double temperature_A = tempIR.Read_TA_AsFahrenheit();</em>
         </tr>
         <tr>
           <td><img src="images/Method_16x.png"></td>
           <td><strong>double Read_Tobj_AsCelcius()</strong></td>
-          <td>Renvoi la température de l'objet en °C. <br> Une exception System.IO.IOException est générée avec le message "I2CBus error + SLA" en cas d'échec de la communication.</td>
+          <td>Renvoi la température de l'objet en °C. <br> Une exception System.IO.IOException est générée avec le message "I2CBus
+            error + SLA" en cas d'échec de la communication.</td>
+            <br> <br>
+          <strong>Exemple</strong><br>
+          <em>double temperature_O = tempIR.Read_Tobj_AsCelcius();</em>
         </tr>
         <tr>
           <td><img src="images/Method_16x.png"></td>
           <td><strong>double Read_Tobj_AsFahrenheit()</strong></td>
-          <td>Renvoi la température de l'objet en °F. <br> Une exception System.IO.IOException est générée avec le message "I2CBus error + SLA" en cas d'échec de la communication.</td>
+          <td>Renvoi la température de l'objet en °F. <br> Une exception System.IO.IOException est générée avec le message "I2CBus
+            error + SLA" en cas d'échec de la communication.</td>
+            <br> <br>
+          <strong>Exemple</strong><br>
+          <em>double temperature_O = tempIR.Read_Tobj_AsFahrenheit();</em>
         </tr>
       </table>
     </section>

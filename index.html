@@ -18,7 +18,7 @@
     <header class="inner">
       <a id="forkme_banner" href="https://github.com/WebGE/MLX90614">View on GitHub</a>
 
-      <h1 id="project_title">Capteur de température infrarouge sans contact MLX90614 (I²C)</h1>
+      <h1 id="project_title">Single and Dual Zone Infra Red Thermometer in TO-39 (I²C)</h1>
       <h2 id="project_tagline">Description de la classe <strong><em>MLX90614</em></strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino
         et GHI FEZ (PANDA, COBRA...).</h2>
 
@@ -192,7 +192,7 @@
       <p><strong>Organisation des classes</strong> contenues dans MicroToolsKit
         <a href="https://csharpembarquenetduino.wikispaces.com/6.+La+biblioth%C3%A8que+MicroToolsKit " target="_blank ">[lien]</a>
       </p>
-      <p><em>Installer ce nuget dans le projet Visual Studio simplifie l'utilisation de la classe.</em></p>
+      <p><em><strong>Important </strong> : Installer ce nuget dans le projet Visual Studio simplifie l'utilisation de la classe.</em></p>
       <hr>
 
       <h4 id="WIKI">2.3 Les Wikis</h4>
@@ -239,6 +239,7 @@
       <pre>
 using System.Threading;
 using Microsoft.SPOT;
+
 using Microtoolskit.Hardware.Sensors;
 
 namespace test
@@ -291,7 +292,7 @@ namespace test
         <tr>
           <td><img src="images/Method_16x.png"></td>
           <td><strong>double Read_TA_AsCelcius()</strong></td>
-          <td>Renvoi la température de l'air en °C. <br> Note : Une exception System.IO.IOException est générée avec le message "I2CBus
+          <td>Renvoi la température de l'air en °C. <br> <strong>Note</strong> <br>Une exception System.IO.IOException est générée avec le message "I2CBus
             error + SLA" en cas d'échec de la communication.
           <br> <br>
           <strong>Exemple</strong><br>
@@ -301,7 +302,7 @@ namespace test
         <tr>
           <td><img src="images/Method_16x.png"></td>
           <td><strong>double Read_TA_AsFahrenheit()</strong></td>
-          <td>Renvoi la température de l'air en °F. <br> Note : Une exception System.IO.IOException est générée avec le message "I2CBus
+          <td>Renvoi la température de l'air en °F. <br> <strong>Note</strong> <br>Une exception System.IO.IOException est générée avec le message "I2CBus
             error + SLA" en cas d'échec de la communication.
             <br> <br>
           <strong>Exemple</strong><br>
@@ -311,7 +312,7 @@ namespace test
         <tr>
           <td><img src="images/Method_16x.png"></td>
           <td><strong>double Read_Tobj_AsCelcius()</strong></td>
-          <td>Renvoi la température de l'objet en °C. <br> Note : Une exception System.IO.IOException est générée avec le message "I2CBus
+          <td>Renvoi la température de l'objet en °C. <br> <strong>Note</strong> <br>Une exception System.IO.IOException est générée avec le message "I2CBus
             error + SLA" en cas d'échec de la communication.
             <br> <br>
           <strong>Exemple</strong><br>
@@ -321,7 +322,7 @@ namespace test
         <tr>
           <td><img src="images/Method_16x.png"></td>
           <td><strong>double Read_Tobj_AsFahrenheit()</strong></td>
-          <td>Renvoi la température de l'objet en °F. <br> Note : Une exception System.IO.IOException est générée avec le message "I2CBus
+          <td>Renvoi la température de l'objet en °F. <br> <strong>Note</strong> <br>Une exception System.IO.IOException est générée avec le message "I2CBus
             error + SLA" en cas d'échec de la communication.
             <br> <br>
           <strong>Exemple</strong><br>

@@ -221,7 +221,7 @@
       <hr>
       <ol>
         <li><strong>Créer </strong>un nouveau projet en suivant la démarche décrite dans le chapitre <em>"Premier programme en C# étape par étape"</em> 
-				du Wiki dédié à une carte <strong>Netduino</strong> ou du Wiki dédié à une carte <strong>Fez. </strong>Ces Wikis sont accessibles
+				du Wiki dédié à une carte <strong>Netduino</strong> ou du Wiki dédié à une carte <strong>GHI Fez. </strong>Ces Wikis sont accessibles
 					<a href="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library" target="_blank">ici</a>.</li>
         <li><strong>Utiliser</strong> le gestionnaire de paquets NuGet pour <strong>ajouter</strong> la bibliothèque <strong>MicroToolsKit</strong> 
         (<a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/ " target="_blank ">nuget.org</a>) dans le projet.
@@ -272,7 +272,11 @@ namespace test
           <td><strong>MLX90614</strong>(<strong>ushort</strong> <em>SLA</em>, <strong>short</strong> <em>Frequency</em> )</td>
           <td>Instancie un objet "MLX90614". <br><strong>SLA : </strong>Addresse sur le bus I²C entre 0x01 et 0x7F. <br> SLA=
             0x5A par défaut.
-            <br><strong>Frequency: </strong>Féquence du signal SCL entre 10kHz et 100kHz <br> Frequency = 50kHz. (par défaut)</td>
+            <br><strong>Frequency: </strong>Féquence du signal SCL entre 10kHz et 100kHz <br> Frequency = 50kHz. (par défaut)
+            <br> <br>
+						<strong>Exemple</strong><br>
+						<em> MLX90614 tempIR = new MLX90614();</em>
+            </td>
         </tr>
       </table>
 

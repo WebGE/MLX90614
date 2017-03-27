@@ -4,7 +4,7 @@
 -------------------------------------
 Source code.
 
-A <strong>.NETMF 4.3 class</strong> write for a MLX90614 circuit : <strong>IR Temperature sensor</strong>. 
+A <strong>.NETMF v4.3 class</strong> write for a MLX90614 circuit : <strong>IR Temperature sensor</strong>. 
 
 This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 

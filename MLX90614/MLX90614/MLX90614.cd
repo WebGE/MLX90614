@@ -1,2 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="testMicroToolsKit.Hardware.IO.MLX90614">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Field Name="config" Hidden="true" />
+      <Method Name="getRegister" Hidden="true" />
+      <Field Name="i2cBus" Hidden="true" />
+      <Field Name="RAM_TA_REGISTER" Hidden="true" />
+      <Field Name="RAM_TOBJ1_REGISTER" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAgAAAAAAAAEAAAAAAAEEAAAAARAEAAA=</HashCode>
+      <FileName>MLX90614.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -21,9 +21,9 @@ namespace testMicroToolsKit
                 /// <summary>
                 /// MLX90614 configuration
                 /// </summary>
-                I2CDevice.Configuration config;
+                I2CDevice.Configuration config = null;
 
-                I2CDevice i2cBus;
+                I2CDevice i2cBus = null;
 
                 /// <summary>
                 /// MLX90614 IR Temperature sensor

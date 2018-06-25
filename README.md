@@ -71,7 +71,7 @@ write in EEPROM
 
 <strong>Project site</strong>
 --------------------
-- <a href ="https://csharpembarquenetduino.wikispaces.com/6.+MicroToolsKit+library">MicroToolsKit library</a> (in English).
+- <a href ="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:microtoolskit">MicroToolsKit library</a> (in English).
 <hr>
 
 <strong>Maintened by<strong> <a href="mailto:philippemariano@gmail.com">WebGE</a>
